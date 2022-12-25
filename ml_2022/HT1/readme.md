@@ -46,13 +46,13 @@
 {"name": "Mahindra Xylo E4 BS IV", "year": 2010, "selling_price": 229999, "km_driven": 168000, "fuel": "Diesel", "seller_type": "Individual", "transmission": "Manual", "owner": "First Owner", "mileage": "14.0 kmpl", "engine": "2498 CC", "max_power": "112 bhp", "torque": "260 Nm at 1800-2200 rpm", "seats": 7.0}
 ```
 Пример загрузки объекта:  
-![pic_2](/pics/Screenshot 2022-12-26 at 00.04.38.png)
+<img src="pics/Screenshot 2022-12-26 at 00.04.38.png">
 
 Пример ответа:  
-![pic_3](/pics/Screenshot 2022-12-26 at 00.04.52.png)
+<img src="pics/Screenshot 2022-12-26 at 00.04.52.png">
 
 Для нескольких объектов пришлось немного запариться. Если нажать кнопку "Upload", то после получения предсказания, итоговый файл автоматически будет скачан.  
-![pic_4](pics/Screenshot 2022-12-26 at 00.05.49.png)
+<img src="pics/Screenshot 2022-12-26 at 00.05.49.png">
 
 
 # Выводы
