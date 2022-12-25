@@ -38,7 +38,7 @@
 ## Реализация сервиса с использованием FastApi
 Вот так выглядит сам интерфейс. Делится он на две части - предсказание для одного объекта и предсказание для многих.  
 
-![pic_1](pics/Screenshot 2022-12-25 at 23.57.03.png)  
+![pic_1](/pics/Screenshot 2022-12-25 at 23.57.03.png)  
 
 Первая часть принимает на вход json-объект.  
 Вот пример, того, какой объект на вход можно подать:  
@@ -46,10 +46,10 @@
 {"name": "Mahindra Xylo E4 BS IV", "year": 2010, "selling_price": 229999, "km_driven": 168000, "fuel": "Diesel", "seller_type": "Individual", "transmission": "Manual", "owner": "First Owner", "mileage": "14.0 kmpl", "engine": "2498 CC", "max_power": "112 bhp", "torque": "260 Nm at 1800-2200 rpm", "seats": 7.0}
 ```
 Пример загрузки объекта:  
-![pic_2](pics/Screenshot 2022-12-26 at 00.04.38.png)
+![pic_2](/pics/Screenshot 2022-12-26 at 00.04.38.png)
 
 Пример ответа:  
-![pic_3](pics/Screenshot 2022-12-26 at 00.04.52.png)
+![pic_3](/pics/Screenshot 2022-12-26 at 00.04.52.png)
 
 Для нескольких объектов пришлось немного запариться. Если нажать кнопку "Upload", то после получения предсказания, итоговый файл автоматически будет скачан.  
 ![pic_4](pics/Screenshot 2022-12-26 at 00.05.49.png)
