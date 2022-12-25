@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <title> Попытка сделать нормальный интерфейс для получения предсказания </title>
+        <link rel="stylesheet" href=" {{ url_for('static', path='style.css') }} ">
+    </head>
+    <body>
+        <h3> Получить предсказание для одного объекта </h3>
+
+        <form action="/upload_one_object" method="post" enctype="application/x-www-form-urlencoded">
+            Признаки в формате json: <br>
+            <input type="text" name="name"> <br><br>
+            <button type="submit"> Submit </button>
+        </form>
+
+        <h3> Получить предсказание для нескольких объектов </h3>
+
+        <form action="/upload_object" method="post" enctype="multipart/form-data">
+            Название csv-файла: <br>
+            <input type="text" name="name"> <br>
+            Файл: <br>
+            <input type="file" name="item_file" accept=".csv"> <br><br>
+            <button type="submit"> Upload </button>
+        </form>
+
+    </body>
+</html>
